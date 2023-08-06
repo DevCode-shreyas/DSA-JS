@@ -119,12 +119,12 @@
 
 // level 0
 
-const mergeArray = (arr1, arr2) => {
-  // return [...arr1, ...arr2];
-  return arr1.concat(...arr2);
-};
+// const mergeArray = (arr1, arr2) => {
+//   // return [...arr1, ...arr2];
+//   return arr1.concat(...arr2);
+// };
 
-const arr1 = [1];
-const arr2 = [2, 3];
-console.log(mergeArray(arr1, arr2));
-console.log(arr1, arr2);
+// const arr1 = [1];
+// const arr2 = [2, 3];
+// console.log(mergeArray(arr1, arr2));
+// console.log(arr1, arr2);
