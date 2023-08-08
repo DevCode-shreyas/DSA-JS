@@ -86,3 +86,19 @@ const arr1 = new Array();
 // };
 
 // console.log(removeElement(arr, 2));
+
+// TODO: question 4: how do you remove an element from an array given the value?
+
+// const removeElement = (arr, target) => {
+//   const index = arr.indexOf(target);
+//   if (index === -1) {
+//     return "invalid index";
+//   }
+//   for (let i = index; i < arr.length - 1; i++) {
+//     arr[i] = arr[i + 1];
+//   }
+//   arr.pop();
+//   return arr;
+// };
+
+// console.log(removeElement(arr, 4));
